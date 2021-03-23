@@ -15,7 +15,7 @@
     2. Outputs csv format (userid, platformid, requestcount)
 1. Outputs are a consolidation of all unique events by a (user) on a (platform)
 
-###### Functionality
+### Functionality
 
 1. CSV => 2020/08/12/test.csv & 2020/08/10/test.csv
     1. 12/08/2020 16:00,1,2,498
@@ -28,10 +28,11 @@
     
 ### Thought Process
 
-1. Efficiency
-    1. Matching Existing records is done O(n), assumption being each csv is to large to implement matching with a hash
+###### Efficiency
 
-###### Testing
+1. Matching Existing records is done O(n), assumption being each csv is to large to implement matching with a hash
+
+### Testing
 
 1. Tests are snapshot based, and by no means perfect at "locking down" the code
 2. To implement further, you would want to pretty much emulate every action in the
